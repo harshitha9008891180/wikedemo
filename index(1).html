@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikDemo - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #007bff;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 15px;
+        }
+        .hero {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+        }
+        .feature-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 30%;
+        }
+        .footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    
+    <div class="hero" style="color: rgb(231, 83, 83);">
+        Welcome to WikDemo
+    </div>
+    <br><br><br><br>
+    <div class="features">
+        <div class="feature-box">
+            <h2>Fast & Reliable</h2>
+            <p>Experience lightning-fast information access.</p>
+        </div>
+        <div class="feature-box">
+            <h2>User-Friendly</h2>
+            <p>Simple and intuitive design for everyone.</p>
+        </div>
+        <div class="feature-box">
+            <h2>Secure</h2>
+            <p>Protecting your data with the latest security.</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        &copy; 2025 WikDemo. All rights reserved.
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("WikDemo homepage loaded successfully!");
+        });
+    </script>
+</body>
+</html>
